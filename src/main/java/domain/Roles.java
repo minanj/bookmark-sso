@@ -9,6 +9,5 @@ public class Roles {
     @Id
     @GeneratedValue
     private String id;
-
     private String name;
 }
