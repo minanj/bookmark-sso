@@ -1,10 +1,12 @@
-package service;
+package com.hm.service;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import repository.UsersRepository;
+import com.hm.repository.UsersRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UsersService implements UserDetailsService {
 
     private UsersRepository usersRepository;

@@ -1,6 +1,6 @@
-package repository;
+package com.hm.repository;
 
-import domain.Users;
+import com.hm.domain.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UsersRepository extends JpaRepository<Users, Long> {
